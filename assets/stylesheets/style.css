@@ -185,12 +185,114 @@ h6 {
     background: url(../media/hero/contact_hero.jpg);
     background-size: cover;   
 }
+.blog-strip {
+    height: 220px;
+    background: url(../media/hero/blog_hero.jpg);
+    background-size: cover;       
+}
+.article-content {
+    padding-left: 15px;
+}
 .banner p {
     color: white;
     font-size: 42px;
     font-weight: 700;
     text-align: center;
     padding-top: 70px;
+}
+/* Blog Aside section */
+aside {
+    padding-top: 60px;
+}
+.aside-container {
+    background-color: #FBF9FF;
+    margin-bottom: 30px;
+}
+.aside-padding {
+    padding: 20px;
+}
+.search-bar {
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.search-bar span {
+    padding-left: 10px;
+    color: grey;
+    font-size: 9px;
+}
+.search-btn {
+    border: none;
+    background-color: #EB6F6F;
+    height: 100%;
+}
+.bottom-btn {
+    width: 100%;
+    border: 1px solid #EB6F6F;
+    background-color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #EB6F6F;
+    font-size: 10px;
+}
+/* Category aside */
+.heading-hr {
+    margin-bottom: 30px;
+}
+.category hr {
+    color: #F2EDFD;
+    border: 0.5px solid;
+}
+.category p {
+    color: #576473;
+    font-size: 12px;
+    margin: 15px 0;
+}
+/* Recent (blog section) */
+.recent-items {
+    margin-bottom: 18px;
+}
+.recent-header {
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+}
+.recent time {
+    font-size: 11.5px;
+}
+.recent img {
+    margin-right: 20px;
+}
+/* Tags */
+.tags {
+    text-transform: lowercase;
+    border: 1px solid black;
+    font-size: 11px;
+    padding: 5px 10px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+/* Instagram Feeds */
+.feed-col-2-3 img{
+    width: 30%;
+    margin-bottom: 10px;
+}
+/* Location button */
+.location-icons {
+    padding-top: 50px;
+    width: 30%;
+    text-align: middle;
+    margin: 0 auto;
+}
+.location-icons button {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px 13px;
+    font-size: 11.5px;
+}
+.location-icons .two {
+    background-color: #FBF9FF;
 }
 /* Case backgrounds */
 .wrap {
@@ -292,6 +394,55 @@ h6 {
     font-size: 12px;
     background-color: white;
     border: 1px solid #FD656A;
+}
+/* Blog section */
+.blog {
+    background-color: white;
+}
+.blog-container {
+    max-width: 1000px;
+    padding: 15px 32px;
+    margin: 0 auto;
+}
+.blog-template {
+    background-color: white;
+}
+.blog-template h2 {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.blog-template p {
+    font-size: 12px;
+    line-height: 1.9;
+}
+.blog-template span {
+    display: block;
+    margin-top: 20px;
+    font-size: 11.5px;
+    color: #99999A;
+    padding-bottom: 20px;
+}
+.date {
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    left: 20px;
+    display: block;
+    height: auto;
+    width: 70px;
+    background-color: #EB6F6F;
+    text-align: center;
+    border-radius: 5px;
+}
+.date-content {
+    padding: 5px;
+    color: white;
+}
+.date-content strong {
+    font-weight: 700;
+    font-size: 22px;
 }
 /* What we do for you section */
 .what-we-do {
