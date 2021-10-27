@@ -193,7 +193,7 @@ h6 {
 .article-content {
     padding-left: 15px;
 }
-.banner p {
+.banner h1 {
     color: white;
     font-size: 42px;
     font-weight: 700;
@@ -484,15 +484,6 @@ aside {
     margin-bottom: 20px;
 }
 /* Trust section */
-.many-clients {
-    height: 500px;
-    width: 500px;
-    background-color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    left: 740px;
-    top: 190vh;
-    z-index: 3;
-}
 .many-clients-content-about {
     height: 500px;
     width: 500px;
@@ -501,6 +492,23 @@ aside {
     left: 0px;
     bottom: 940px;
     padding: 45px;
+}
+.many-clients-about {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 740px;
+    top: 450px;
+}
+.many-clients {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 740px;
+    top: 190vh;
+    z-index: 3;
 }
 .many-clients-content {
     padding: 45px;
@@ -700,6 +708,9 @@ aside {
     margin: 30px 0;
     font-size: 12px;
 }
+.footer-soc a {
+    color: black;
+}
 .footer-soc li {
     margin-right: 10px;
 }
@@ -732,4 +743,7 @@ small {
     display: block;
     text-align: center;
     margin-top: 20px;
+}
+.footer strong {
+    color: #EC9193;
 }
